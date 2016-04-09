@@ -1,0 +1,8 @@
+<h1><%= @toys[:name] %></h1>
+<p>Quantity: <%= @toys[:quantity]%></p>
+<img src="<%= @toys[:img] %>">
+
+<br>
+<button class="btn btn-default"><a href="/toys/<%= @i %>/edit">Edit</a></button>
+<button class="btn btn-default"><a href="/toys/<%= @i %>/delete">Delete</a></button>
+<button class="btn btn-default"><a href="/toys">Index</a></button>

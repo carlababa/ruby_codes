@@ -1,0 +1,42 @@
+[
+  {
+    "name": "Thomas Jeffersonn",
+    "phone": "+1 206 310 1369",
+    "email": "tjeff@us.gov"
+  },
+  {
+    "name": "Nikola Tesla",
+    "phone": "+385 43 987 3355",
+    "email": "nik@inductlabs.com"
+  },
+  {
+    "name": "Genghis Khan",
+    "phone": "+976 2 194 2222",
+    "email": "contact@empire.com"
+  },
+  {
+    "name": "Malcom X",
+    "phone": "+1 310 155 9p",
+    "email": "x@theroost.org"
+  },
+  {
+    "name": "Piet Mondrian",
+    "phone": "+31 33 465 6844",
+    "email": "pmon@stijl.org"
+  },
+  {
+    "name": "Outra Pessoa",
+    "phone": "+31 33 465 8765",
+    "email": "outrapessoa@gmail.com"
+  },
+  {
+    "name": "",
+    "phone": null,
+    "email": null
+  },
+  {
+    "name": "",
+    "phone": "",
+    "email": ""
+  }
+]

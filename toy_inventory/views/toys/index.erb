@@ -1,0 +1,10 @@
+<h2>This is what I have to offer:</h2>
+
+<% @toys.each_with_index do |toy, i| %>
+    <h3><a href="/toys/<%= i %>"><%= toy[:name] %></a></h3>
+    <h3><a href="/toys/<%= i %>"><img src="<%= toy[:img] %>"></a></h3>
+<% end %>
+
+<br>
+<button class="btn btn-default"><a href="/toys/new">New</a></button>
+<button class="btn btn-default"><a href="/toys/search">Search</a></button>

@@ -1,0 +1,10 @@
+<h2>This is the result of your search:</h2>
+
+<% @toys.each_with_index do |toy, i| %>
+    <h3><%= toy[:name] %></a></h3>
+    <p><%= toy[:quantity] %></p>
+    <h3><a href="/toys/<%= i %>"><img src="<%= toy[:img] %>"></a></h3>
+<% end %>
+
+<br>
+<button class="btn btn-default"><a href="/toys">Index</a></button>

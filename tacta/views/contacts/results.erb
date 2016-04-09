@@ -1,0 +1,10 @@
+<h2>This is the result of your search:</h2>
+
+<% @contacts.each_with_index do |contact, i| %>
+    <h3><%= contact[:name] %></a></h3>
+    <p><%= contact[:phone] %></p>
+    <p><%= contact[:email] %></p>
+<% end %>
+
+<br>
+<a href="/contacts">[Index]</a>
